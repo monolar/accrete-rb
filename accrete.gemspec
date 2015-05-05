@@ -21,8 +21,8 @@ Gem::Specification.new do |gem|
     gem.add_runtime_dependency(dep)
   end
 
-  %w{chromatic guard-rspec simplecov-rcov yard simplecov-rcov
-     command guard-bundler guard-shell guard-rubocop rubocop-checkstyle_formatter}.each do |dep|
+  %w{rake chromatic guard-rspec simplecov-rcov yard command
+    guard-bundler guard-shell guard-rubocop rubocop-checkstyle_formatter}.each do |dep|
     gem.add_development_dependency(dep)
   end
 end
