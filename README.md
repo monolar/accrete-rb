@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/monolar/accrete-rb.svg?branch=master)](https://travis-ci.org/monolar/accrete-rb)
 [![Code Climate](https://codeclimate.com/github/monolar/accrete-rb/badges/gpa.svg)](https://codeclimate.com/github/monolar/accrete-rb)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/monolar/accrete-rb/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/monolar/accrete-rb/?branch=master)
 
 ## General
 
