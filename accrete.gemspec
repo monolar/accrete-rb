@@ -22,7 +22,9 @@ Gem::Specification.new do |gem|
   end
 
   %w{rake chromatic guard-rspec simplecov-rcov yard command
-    guard-bundler guard-shell guard-rubocop rubocop-checkstyle_formatter}.each do |dep|
+    guard-bundler guard-shell guard-rubocop
+    rubocop-checkstyle_formatter
+    codeclimate-test-reporter}.each do |dep|
     gem.add_development_dependency(dep)
   end
 end

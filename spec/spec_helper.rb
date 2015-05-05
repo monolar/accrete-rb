@@ -1,6 +1,9 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'chromatic'
+require "codeclimate-test-reporter"
+
+CodeClimate::TestReporter.start
 
 # COVERAGE env variable controls if coverage data is collected and the output
 # format at the same time.
