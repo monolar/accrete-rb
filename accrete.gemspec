@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.description = 'Accrete generates believable star systems according to sagan et.al'
   gem.authors     = ['monolar']
   gem.email       = 'monolar@monolar.org'
-  gem.homepage    = 'http://'
+  gem.homepage    = 'https://github.com/monolar/accrete-rb'
 
   gem.files = Dir['lib/accrete.rb',
                   'lib/accrete/**/*']
