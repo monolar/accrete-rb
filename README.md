@@ -1,5 +1,7 @@
 # Accrete
 
+[![Build Status](https://travis-ci.org/monolar/accrete-rb.svg?branch=master)](https://travis-ci.org/monolar/accrete-rb)
+
 ## General
 
 Star system generator based on Sagan / Rand corp
