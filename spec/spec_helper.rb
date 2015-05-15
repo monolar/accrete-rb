@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'bundler/setup'
 require 'chromatic'
-require "codeclimate-test-reporter"
+require 'codeclimate-test-reporter'
 
 CodeClimate::TestReporter.start
 
