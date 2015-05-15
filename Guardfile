@@ -10,6 +10,7 @@ rubocop_files = %w(
   Gemfile
   **/Capfile
   Rakefile
+  **/*.gemspec
 )
 
 guard :rubocop, all_on_start: true, cli: %w(-D -S).concat(rubocop_files)do
@@ -20,6 +21,7 @@ guard :rubocop, all_on_start: true, cli: %w(-D -S).concat(rubocop_files)do
   watch(/.*Gemfile$/)
   watch(/.*Capfile$/)
   watch(/.*Rakefile$/)
+  watch(/.*\.gemspec/)
   watch(%r{/(?:.+\/)?\.rubocop\.yml$/}) { |m| File.dirname(m[0]) }
 end
 

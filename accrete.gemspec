@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-$:.push File.expand_path('../lib', __FILE__)
+$LOAD_PATH.push File.expand_path('../lib', __FILE__)
 require 'accrete/version'
 
 Gem::Specification.new do |gem|
@@ -14,17 +14,31 @@ Gem::Specification.new do |gem|
 
   gem.files = Dir['lib/accrete.rb',
                   'lib/accrete/**/*']
-  gem.test_files = Dir['spec/**/*', 'Rakefile', 'lib/tasks/**/*']-Dir['spec/reports/*']
+  gem.test_files = Dir[
+    'lib/tasks/**/*',
+    'Rakefile',
+    'spec/**/*'
+  ] - Dir[
+    'spec/reports/*'
+  ]
   gem.require_paths = ['lib']
 
-  %w{}.each do |dep|
+  %w().each do |dep|
     gem.add_runtime_dependency(dep)
   end
 
-  %w{rake chromatic guard-rspec simplecov-rcov yard command
-    guard-bundler guard-shell guard-rubocop
+  %w(
+    chromatic
+    codeclimate-test-reporter
+    guard-bundler
+    guard-rspec
+    guard-rubocop
+    guard-shell
+    rake
     rubocop-checkstyle_formatter
-    codeclimate-test-reporter}.each do |dep|
+    simplecov-rcov
+    yard command
+  ).each do |dep|
     gem.add_development_dependency(dep)
   end
 end
