@@ -30,6 +30,7 @@ Gem::Specification.new do |gem|
   %w(
     chromatic
     codeclimate-test-reporter
+    command
     guard-bundler
     guard-rspec
     guard-rubocop
@@ -37,7 +38,7 @@ Gem::Specification.new do |gem|
     rake
     rubocop-checkstyle_formatter
     simplecov-rcov
-    yard command
+    yard
   ).each do |dep|
     gem.add_development_dependency(dep)
   end
