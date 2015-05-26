@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 namespace :rvm do
   namespace :dotfiles do
     desc 'Links the ruby-*.dev files'

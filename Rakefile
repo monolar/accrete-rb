@@ -1,9 +1,10 @@
 #!/usr/bin/env rake
+# -*- encoding: utf-8 -*-
 
 def try
   yield if block_given?
   rescue LoadError => e
-    puts "Run `rake rvm:dev_env:setup` to satisfy all dependencies: #{e.inspect}"
+    p "Run `rake rvm:dev_env:setup` to satisfy all dependencies: #{e.inspect}"
 end
 
 try { require 'bundler/setup' }

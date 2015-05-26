@@ -1,3 +1,5 @@
+# -*- encoding: utf-8 -*-
+
 module Accrete
   class Star
     attr_reader :mass

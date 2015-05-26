@@ -7,7 +7,7 @@ Gem::Specification.new do |gem|
   gem.name        = 'accrete'
   gem.version     = Accrete::VERSION
   gem.summary     = 'Star system generator'
-  gem.description = 'Accrete generates believable star systems according to sagan et.al'
+  gem.description = 'Accrete generates star systems according to sagan et.al'
   gem.authors     = ['monolar']
   gem.email       = 'monolar@monolar.org'
   gem.homepage    = 'https://github.com/monolar/accrete-rb'
