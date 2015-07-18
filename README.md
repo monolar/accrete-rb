@@ -11,6 +11,8 @@
 
 Star system generator based on Sagan / Rand corp
 
+See http://www.rand.org/pubs/papers/P4226.html for original paper by Stephen H. Dole
+
 ## Local Development Setup
 
 ### Prerequisites
